@@ -1,6 +1,6 @@
-<Seed Pos="10" Display="IPInfo">
-	<Url Visible="false">https://cetas.paterva.com/TDS/runner/showseed/IPInfo</Url> <!--visible is optional, default "false"--> 
-	<Description>host.io</Description> 
+<Seed Pos="10" Display="IPinfo">
+	<Url Visible="false">https://cetas.paterva.com/TDS/runner/showseed/IPinfo</Url> <!--visible is optional, default "false"--> 
+	<Description>Host.io</Description> 
 	<Details>Enrich IP Address, Domain and ASN.</Details> 
 	<Modified>1579058424</Modified> <!-- unix time --> 
 	<Icon><!-- 48x48px png--> 
@@ -8,7 +8,7 @@
 	</Icon>
 	<Provider>
 		<Name>Christian Heinrich</Name>
-		<Website>https://github.com/cmlh/Maltego-IPInfo</Website>
+		<Website>https://github.com/cmlh/Maltego-IPinfo</Website>
 		<Email>christian.heinrich@cmlh.id.au</Email>
 		<Phone></Phone> 
 	</Provider>
@@ -20,6 +20,6 @@
 		<Website>https://ipinfo.io/pricing</Website>
 	</Pricing>
 	<Inputs> 
-		<Input Name="IPInfoToken" Display="IPInfo API Token" Type="string" Optional="false" Auth="true"/>
+		<Input Name="IPinfoToken" Display="IPinfo API Token" Type="string" Optional="false" Auth="true"/>
 	</Inputs> 
 </Seed>
